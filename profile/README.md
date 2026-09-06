@@ -68,7 +68,7 @@ generated from what actually happened.
 - Put an agent in the side panel of the note you are working on
 - Keep a notes-only workspace with no code in it at all
 
-<img src="https://raw.githubusercontent.com/TennnisAI/.github/main/profile/assets/shot-docs.webp" alt="The Docs tab: a rendered markdown note open in the editor with the notes tree on the left, and an agent running in the note's side panel on the right.">
+<img src="https://raw.githubusercontent.com/TennnisAI/.github/main/profile/assets/shot-docs.webp" alt="The Docs tab: a rendered markdown note open in the editor with the notes tree on the left, and the note's properties, outline and backlinks in the side panel on the right.">
 
 <br>
 
