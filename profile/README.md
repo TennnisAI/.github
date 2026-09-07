@@ -17,7 +17,7 @@ macOS 11 or later, Apple Silicon &nbsp;&middot;&nbsp; free &nbsp;&middot;&nbsp; 
 
 <br>
 
-<img src="https://raw.githubusercontent.com/TennnisAI/.github/main/profile/assets/shot-overview.webp" alt="The Agency window showing the all-projects overview: 16 projects and 13 agents, with live terminal output from several Claude Code runs, each on its own agent branch, and a plain terminal alongside.">
+<img src="https://raw.githubusercontent.com/TennnisAI/.github/main/profile/assets/shot-overview.webp" alt="The Agency window showing the all-projects overview: 18 projects and 12 agents, with live terminal output from several Claude Code runs and a Cursor agent, each on its own agent branch.">
 
 <br>
 
