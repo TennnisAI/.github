@@ -9,9 +9,9 @@
 Agency runs the coding agent CLIs you already use, side by side on your own
 machine. Each one gets a real terminal, its own git worktree, and its own branch.
 
-macOS 11 or later, Apple Silicon &nbsp;&middot;&nbsp; free &nbsp;&middot;&nbsp; no account
+macOS 11 or later, Apple Silicon &nbsp;&middot;&nbsp; Linux, x86_64 and arm64 &nbsp;&middot;&nbsp; free &nbsp;&middot;&nbsp; no account
 
-**[The app](https://github.com/TennnisAI/Agency)** &nbsp;&middot;&nbsp; **[tennnis.no](https://tennnis.no)**
+**[Download](https://getagency.dev/download)** &nbsp;&middot;&nbsp; **[getagency.dev](https://getagency.dev)** &nbsp;&middot;&nbsp; **[Source](https://github.com/TennnisAI/Agency)**
 
 </div>
 
@@ -68,7 +68,7 @@ generated from what actually happened.
 - Put an agent in the side panel of the note you are working on
 - Keep a notes-only workspace with no code in it at all
 
-<img src="https://raw.githubusercontent.com/TennnisAI/.github/main/profile/assets/shot-docs.webp" alt="The Docs tab: a rendered markdown note open in the editor with the notes tree on the left, and the note's properties, outline and backlinks in the side panel on the right.">
+<img src="https://raw.githubusercontent.com/TennnisAI/.github/main/profile/assets/shot-docs.webp" alt="The Docs tab: a rendered markdown design note open in the editor with the notes tree on the left, and the note's properties, outline and backlinks in the panel on the right.">
 
 <br>
 
@@ -107,10 +107,13 @@ it to talk to. Download it, open it, point it at a repo. The coding agents are
 third party and talk to their own providers with your own credentials, and git
 talks to whichever remotes you configured; those connections are yours.
 
-Agency makes exactly one network request of its own: on launch it asks GitHub's
-public API for the latest release tag and compares it to the version you are
-running. It sends no identifiers and installs nothing, and you can turn it off
-in Settings.
+Agency makes one kind of network request of its own, the update check: on
+launch and every six hours while it is open, it asks GitHub's public API for the
+latest release tag and compares it to the version you are running. It sends no
+identifiers and downloads nothing, and you can turn it off in Settings. A
+release is fetched only when you press Install, and it is checked against a
+signing key built into the app before it goes in place.
+[The privacy page](https://getagency.dev/privacy) has the full account.
 
 <br>
 
@@ -125,7 +128,7 @@ Agency cut, reviewed and merged in the app. The commit history is the receipt.
 
 <div align="center">
 
-Pre-1.0 and in beta. Linux and Windows are planned.
+Pre-1.0 and in beta. Windows is planned.
 
 Brought to you by **[Tennnis](https://tennnis.no)**
 
